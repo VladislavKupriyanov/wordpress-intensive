@@ -12,7 +12,6 @@
 /* PROMO */
 
 .promo {
-    height: 800px;
     background: url(../img/promo/promo_bg.jpg) center center/cover no-repeat;
     padding: 38px 0 60px 0;
 }
@@ -112,4 +111,59 @@ h2.title {
     display: block;
     margin: 0 auto;
     margin-top: 5px;
+}
+
+/* WAITING */
+
+.waiting {
+    padding: 88px 0 75px 0;
+    background: #efefef;
+}
+
+.waiting .waiting_header {
+    font-family: 'Roboto';
+    color: #252525;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 7px;
+    background: #f9bf3b;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 18px;
+    font-family: 'Roboto';
+    color: #4a4a4a;
+    font-size: 23px;
+    text-align: center;
+}
+
+.waiting .waiting_wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.waiting .waiting_item {
+    width: 340px;
+    text-align: center;
+}
+
+.waiting .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_item .waiting_text {
+    margin-top: 26px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4a4a4a;
 }
